@@ -27,8 +27,15 @@
       </div>
 
       <div class="form-group">
+         <%= f.label :date_of_birth %>
+         <%= f.date_field :date_of_birth, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
         <%= f.submit "Sign up!", class: "btn btn-primary" %>
       </div>
+
+
 
     <% end %>
   <div>
